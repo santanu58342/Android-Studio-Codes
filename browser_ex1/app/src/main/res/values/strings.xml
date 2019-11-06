@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">browser_ex1</string>
+    <string name="go">go</string>
+    <string name="search_or_type_url">search or type URL</string>
+</resources>

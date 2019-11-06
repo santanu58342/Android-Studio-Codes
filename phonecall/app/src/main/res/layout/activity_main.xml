@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apoorv.phonecall.MainActivity">
+
+     <TextView
+         android:layout_width="160dp"
+         android:layout_height="50dp"
+         android:id="@+id/text"
+         android:gravity="center"
+         android:layout_margin="70dp"
+         android:text="Phone List"
+         android:textColor="@color/colorAccent"
+         android:textSize="20dp"
+         />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/text"
+        android:layout_alignStart="@+id/text"
+        android:layout_alignTop="@+id/text"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="73dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:onClick="click1"
+        android:text="Call Manoj"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:id="@+id/button" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:onClick="click"
+        android:text="Call shaket"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:id="@+id/button1" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:onClick="click2"
+        android:text="Call Khandal"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:id="@+id/button2"/>
+
+
+</RelativeLayout>

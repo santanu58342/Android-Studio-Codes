@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/m1"
+    android:title="profile">
+    <menu>
+        <item
+            android:id="@+id/s1"
+            android:title="hello"/>
+        <item
+            android:id="@+id/s2"
+            android:title="world"/>
+    </menu>
+    </item>
+    <item android:id="@+id/m2"
+        android:title="security" />
+    <item android:id="@+id/m3"
+        android:title="logout" />
+    <item android:id="@+id/m4"
+        android:title="help" />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <ImageView android:id="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/bangkok"/>
+    <Button
+        android:id="@+id/btnRClk"
+        android:layout_below="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clockwise" android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/btnRAClk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRClk"
+        android:layout_toRightOf="@+id/btnRClk"
+        android:text="Anti Clockwise" />
+</RelativeLayout>

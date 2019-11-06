@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="todo">TODO</string>
+    <string name="exit">Exit</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="write_anything">Write Anything</string>
+</resources>

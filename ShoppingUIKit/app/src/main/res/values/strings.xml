@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shopping UI Kit</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="openDrawer">open_drawer</string>
+</resources>

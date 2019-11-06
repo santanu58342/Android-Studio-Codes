@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/m1"
+android:title="new tab" />
+    <item android:id="@+id/m2"
+        android:title="tabs">
+        <menu>
+            <item
+                android:id="@+id/s1"
+                android:title="1"/>
+        </menu>
+    </item>
+    <item android:id="@+id/m3"
+        android:title="bookmarks" />
+<item android:id="@+id/m4"
+android:title="history" />
+<item android:id="@+id/m5"
+android:title="exit" />
+</menu>
